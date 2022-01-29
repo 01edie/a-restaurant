@@ -1,0 +1,54 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+/* global styling */
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 16px;
+}
+
+:root{
+  --pink:#e93a63 ;
+  --violet:#6e46d7;
+  --yellow:#ffc600;
+  --black:black;
+
+}
+
+body{
+  background-image: linear-gradient(to right, var(--pink) , var(--violet));
+  font-family: 'Roboto', sans-serif;
+}
+
+li{
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* project css  */
+.container{
+  width: 90vw;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.menu{
+  display: flex;
+  gap: 1.5rem;  
+  
+}
+.menu li{
+  background-color: var(--yellow);
+  color: var(--black);
+  padding: 4px;
+  width: 200px;
+  text-align: center;
+}
