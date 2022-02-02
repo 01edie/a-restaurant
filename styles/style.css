@@ -264,10 +264,17 @@ a {
 }
 @media only screen and (max-width : 518px) {
   html{
-    font-size: 10px !important;
+    font-size: 9px !important;
   }
   .featured{
     gap: 0rem !important;
+  }
+  .featured .featured-image {
+    padding-left: 1rem;
+    padding-top: 2rem;
+    width: 15rem;
+    height: 112%;
+  
   }
 }
 
@@ -288,6 +295,13 @@ a {
   .featured{
     gap: 2rem;
   }
+  .featured .featured-image {
+    padding-left: 1rem;
+    padding-top: 2rem;
+    width: 22rem;
+    height: 112%;
+  
+  }
 
 }
 
@@ -307,6 +321,13 @@ html{
 }
 .featured{
   gap: 2rem;
+}
+.featured .featured-image {
+  padding-left: 1rem;
+  padding-top: 2rem;
+  width: 27rem;
+  height: 112%;
+
 }
 
 }
