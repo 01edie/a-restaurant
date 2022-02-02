@@ -282,7 +282,9 @@ a {
   html{
     font-size: 11px;
   }
-
+  .separator-text{
+    font-size: 0.9rem;
+  }
   .promotional .primary-items .primary-item-featured {
     justify-content: flex-end;
   }
