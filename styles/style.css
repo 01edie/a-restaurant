@@ -302,6 +302,15 @@ a {
     height: 112%;
   
   }
+  .featured .featured-details .heading {
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+  .featured-details-lines{
+    font-size: 1rem;
+    font-weight: 700;
+    opacity: 0.85;
+  }
 
 }
 
