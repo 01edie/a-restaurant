@@ -283,6 +283,13 @@ a {
     font-size: 11px;
   }
 
+  .promotional .primary-items .primary-item-featured {
+    justify-content: flex-end;
+  }
+
+  .promotional .primary-items .primary-item-catchphrase{
+    margin-bottom: 10px;
+  }
   .featured .featured-details .heading {
     font-size: 1.2rem;
     font-weight: 700;
